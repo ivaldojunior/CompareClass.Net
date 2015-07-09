@@ -11,7 +11,7 @@ namespace CompareClass.Net
 
         static bool isEqual { get; set; }
 
-        public static void Compare<T>(object class1, object class2)
+        public static void CompareClass<T>(object class1, object class2)
         {
        
             var Class1Properties = class1 != null ? class1.GetType().GetProperties() : null;

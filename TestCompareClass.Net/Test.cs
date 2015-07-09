@@ -13,7 +13,7 @@ namespace TestCompareClass.Net
             model m1 = new model() { age = 2, name = "Sandy" };
             model m2 = new model() { age = 5, name = "Rauff" };
 
-            Compare.Compare<model>(m1, m2);
+            Compare.CompareClass<model>(m1, m2);
 
 
         }
